@@ -1,0 +1,48 @@
+# 编译相关目录
+/build/
+/obj/
+/bin/
+
+# 编译中间文件
+*.o
+*.a
+*.so
+*.out
+*.gcno
+*.gcda
+
+# 运行时日志和临时文件
+/logs/
+*.log
+*.pid
+*.tmp
+core.*
+*.core
+
+# IDE配置和缓存
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 可执行文件（根目录可能生成的）
+WebServer
+*.exe
+
+# 测试覆盖率报告
+coverage/
+*.lcov
+
+# 环境配置文件
+.env
+.env.local
+
+# 备份文件
+*.bak
+*~
