@@ -35,8 +35,8 @@ void Log::SetLevel(int level) {
 }
 
 void Log::init(int level = 1, 
-                const char* path = "../../logs", 
-                const char* suffix = ".log", 
+                const char* path, 
+                const char* suffix, 
                 int maxQueueSize) {
         
     isOpen_ = true;
